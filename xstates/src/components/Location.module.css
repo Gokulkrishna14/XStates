@@ -14,3 +14,11 @@
     width: 300px;
     height: 30px;
 }
+
+.highlight {
+    font-size: 32px;
+}
+
+.fade {
+    color: grey;
+}
