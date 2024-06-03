@@ -104,13 +104,11 @@ export default function Location(){
             </div>
 
             {selectedCity && (
-                <h2>You selected <span className={styles.highlight}>{selectedCountry}</span>,
-                <span className={styles.fade}>
-                    {" "}
-                    {selectedState}, {selectedCity}
-                </span>
-                </h2>
-            )}
+        <h2>
+          You selected <span className={styles.highlight}>{selectedCountry}</span>,
+          <span className={styles.fade}> {selectedState}, {selectedCity}</span>
+        </h2>
+      )}
 
         </div>
     );
