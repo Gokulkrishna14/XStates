@@ -102,7 +102,9 @@ export default function Location(){
             
 
             </div>
-            {selectedCity && (<div>You selected {selectedCountry}, {selectedState}, {selectedCity}</div>)}
+            <div>
+                {selectedCity && (<div>You selected <b>{selectedCountry}</b>, {selectedState}, {selectedCity}</div>)}
+            </div>
         </div>
     );
 };
